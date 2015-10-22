@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <Button
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:text="Activity One"
+            android:id="@+id/button1" android:layout_gravity="center_horizontal"
+            android:onClick="button1" android:textColor="#fd95ff50"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Results"
+            android:id="@+id/results" android:layout_gravity="center_horizontal"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2" android:layout_gravity="center_horizontal" android:hint="Enter values here"/>
+    <Button
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:text="Activity two"
+            android:id="@+id/button2" android:layout_gravity="center_horizontal"
+            android:onClick="button2" android:background="#fffffdfb" android:textColor="#ff0b1306"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:id="@+id/textView2" android:layout_gravity="center_horizontal"/>
+</LinearLayout>
+
